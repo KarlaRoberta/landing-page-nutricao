@@ -74,7 +74,7 @@
    
     position: relative;
     right: 0.5em;
-    top: 3em;
+    top: 2em;
     height: 10vh;
     max-width: 12000px;
     margin-bottom: 3em;
@@ -86,6 +86,22 @@
     border-radius: 5px;
     border: none;
     outline: none;
+}
+
+#botao{
+    text-transform: uppercase;
+    width: 40%;
+    border: none;
+    padding: 5px;
+    margin: 2em;
+    margin-left: 4rem;
+    cursor: pointer;
+    opacity: 0.8;
+    color: #A62454;
+}
+
+#botao:hover{
+    opacity: 2;
 }
 
 
