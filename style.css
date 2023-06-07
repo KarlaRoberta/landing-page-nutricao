@@ -6,6 +6,9 @@
     box-sizing: border-box;
     
 }
+body{
+    padding-bottom: 500px;
+}
 
 #perfil {
     background: linear-gradient(rgba(211, 207, 207, 0.515), rgba(211, 207, 207, 0.46)), url("img/primeira (1).png");
@@ -29,8 +32,6 @@
    position: relative;
    top: -43em;
    left: 58em;
-   
-    
 
 }
 
@@ -104,5 +105,57 @@
     opacity: 2;
 }
 
+#key-benefits h2{
+    background: #A62454;
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
+    
+    color: white;
+    position: relative;
+    top: -292px;
+}
+
+.benefits{
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: -230px;
+}
+
+.benefit{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+}
+
+.benefit .benefit-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+    position: relative;
+    top: -100px;
+
+}
+
+#benefit-1{
+    background-image: url("../img/foto1.png");
+}
+
+#benefit-2{
+    background-image: url("../img/foto2.png");
+}
+
+#benefit-3{
+    background-image: url("../img/foto3.png");
+}
 
 
