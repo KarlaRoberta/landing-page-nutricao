@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -6,198 +5,138 @@
     box-sizing: border-box;
     
 }
-body{
-    padding-bottom: 500px;
+:root {
+    --color-default: #2b180d;
+    --color-primary: #A62454;
+    --color-secondary: #BF788B;
+    --color-tertiary: #788C69;
+    --color-quaternary: #C9D9A9;
+  }
+
+.logo-nutri{
+    width: 70%;
+    margin-top: -1.7em;
+    margin-left: -8em;
 }
 
-#perfil {
-    background: linear-gradient(rgba(211, 207, 207, 0.515), rgba(211, 207, 207, 0.46)), url("img/primeira (1).png");
-    background-position: center;
-    background-size: cover;
-    height: 80vh;
-    width: 100%;
-    color: #A62454;
-    font-size: 1.5em;
-    
+header{
+     /* background: linear-gradient(#788C69, #c9d9a96a);  */
+     background: var(--color-tertiary);
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 61.5em;
+     padding: 8em;
+     margin-top: -13em;
+     /* margin-top: 5em; */
+     color: #f2f2f2;
+     
 }
 
-.elizabeth{
+.menu{
+    margin-left: 50em;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 30vh;
-}
-.foto-perfil{
-   width: 25vh;
-   position: relative;
-   top: -43em;
-   left: 58em;
-
-}
-
-.sobre-mim{
-    height: 80vh;
-    max-width: 12000px;
-    text-align: center;
-    justify-content: center;
-    height: 80vh;
-    margin-bottom: 3em;
-    margin-top: -2em;
-
-    
-}
-
-#formulario-de-contato{
-    background-size: cover;
-    height: 30vh;
-    width: 40vh;
-    display: inline-block;
-    color: #A62454; 
-    text-align: center;
-    justify-content: center;
+    list-style: none;
     align-items: center;
     position: relative;
-    top: -21em;
-    left: 48em; 
-    background-color: #c6d9a9c5;
-    padding: 2em;
-    border-radius: 15px;
-    /* padding-top: 10em;  esse é quando for mudar o tamanho*/
-}
-#formulario-de-contato p{
-    
-    font-size: 110%;
-    font-weight: bold;
-    color: #A62454;
-   
-}
-.perguntas-formulario{
-   
-    position: relative;
-    right: 0.5em;
-    top: 2em;
-    height: 10vh;
-    max-width: 12000px;
-    margin-bottom: 3em;
-    font-weight: bold;
-    
-}
-.perguntas-formulario input{
-    padding: 6px 8px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-}
-
-#botao{
-    text-transform: uppercase;
-    width: 40%;
-    border: none;
-    padding: 5px;
-    margin: 2em;
-    margin-left: 4rem;
-    cursor: pointer;
-    opacity: 0.8;
-    color: #A62454;
-}
-
-#botao:hover{
-    opacity: 2;
-}
-
-#key-benefits h2{
-    background: #A62454;
-    text-align: center;
-    padding: 2em;
-    font-weight: 500;
-    
-    color: white;
-    position: relative;
-    top: -292px;
-}
-
-.benefits{
-    display: flex;
-    justify-content: space-around;
-    padding: 4em;
-    width: 60%;
-    margin: 0 auto;
-    position: relative;
-    top: -230px;
-}
-
-.benefit{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 20%;
+    top: -37.2em;
     font-size: 20px;
+    /* color: var(--color-primary); */
+
+}
+
+.menu>ul>li{
+    padding: 1em;
+    display: flex;
+    align-items: end;
+    /* width: 12%; */
+}
+
+.menu > ul>li> a{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    color: #f2f2f2;
+    
+}
+
+.menu >ul>li> a:hover{
+    padding: 10px;
+    background-image: linear-gradient(to right, #C9D9A9, #C9D9A9);
+    color: var(--color-tertiary);   
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 35px;
     width: 50%;
-    height: 50%;
-    background-color: #c6d9a9c5 ;
+    margin-top: 4em;
+    margin-left: 3em;
+}
+h2{
+    width: 50%;
+    margin-left: 5.3em;
+    font-size: 30px;
+    
 }
 
-.benefit .benefit-img{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 1em;
+.segunda-img{
+    margin-left: 7em;
+    margin-top: -33em;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.31);
+    padding: 0px -45px 0px;
+    width: 90%;
+    background-color:#bf788b22;
+    
+}
+#sobre{
+    margin-bottom: 2em;
+    margin-top: -3em;
+    font-size: 35px;
+    margin-left: -1.5em;
+    color: #A62454;
     position: relative;
-    top: -100px;
-
+    
 }
-
-#benefit-1{
-    background-image: url("../img/foto1.png");
+#sobre h2::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 15%;
+  height: 2px;
+  background: var(--color-tertiary);
+  left: 25px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  margin-bottom: -0.5em;
+    
 }
-
-#benefit-2{
-    background-image: url("../img/foto2.png");
-}
-
-#benefit-3{
-    background-image: url("../img/foto3.png");
-}
-
-#localizacao{
-    height: 400px;
-     background: #A62454; 
-    /* background: linear-gradient(rgba(211, 207, 207, 0.515), rgba(211, 207, 207, 0.46)), url("img/primeira (1).png"); */
-    background-position: center;
-    background-size: cover;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 20px;
-
-}
-#endereco,
-#sobre-localizacao{
-    max-width: 30%;
-}
-
-#endereco{
-    display: flex;
-}
-#endereco i{
-    color:  #c6d9a9c5;
-    font-size: 4em;
-    margin-right: 0.5em;
-    margin-top: -15px;
-}
-
-#detalhes-endereco{
+.sobre-mim {
+    display: block;
     text-align: center;
-    font-size: 1.1em;
-}
+    justify-content: center;
+    margin-top: 8em;
+    font-size: 23px;
+    width: 50%;
+    padding: 5em;
+    border-radius: 15px;
+    margin-left: 27.5em;
+    color: var(--color-primary);
+    /* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.31); */
+    /* background-color:#bf788b22; */
 
-#sobre-localizacao h3{
-    color: aliceblue;
-    font-size: 2.0em;
-    margin-bottom: 1em;
-    text-transform: uppercase;
+}
+.subtitulo{
+    margin-top: -2.5em;
+    font-size: 25px;
+    color: #f2f2f2;
+}
+.imagem-perfil{
+    margin-top: -57em;
+    margin-left: 53.4em;
 }
