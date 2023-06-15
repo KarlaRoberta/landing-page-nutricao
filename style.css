@@ -16,7 +16,7 @@
 .logo-nutri{
     width: 70%;
     margin-top: -1.7em;
-    margin-left: -8em;
+    margin-left: 32em;
 }
 
 header{
@@ -33,17 +33,18 @@ header{
 }
 
 .menu{
-    margin-left: 50em;
+    margin-left: 5.1em;
+    
+
 }
 .menu ul{
     margin: 0;
     padding: 0;
-    display: flex;
     list-style: none;
     align-items: center;
     position: relative;
-    top: -37.2em;
-    font-size: 20px;
+    top: 1em;
+    font-size: 22px;
     /* color: var(--color-primary); */
 
 }
@@ -51,13 +52,13 @@ header{
 .menu>ul>li{
     padding: 1em;
     display: flex;
-    align-items: end;
-    /* width: 12%; */
+    
+    
 }
 
 .menu > ul>li> a{
     display: block;
-    padding: 8px;
+    padding: 4px;
     text-decoration: none;
     text-align: center;
     color: #f2f2f2;
@@ -66,9 +67,35 @@ header{
 
 .menu >ul>li> a:hover{
     padding: 10px;
-    background-image: linear-gradient(to right, #C9D9A9, #C9D9A9);
-    color: var(--color-tertiary);   
+    background-image: linear-gradient(to right, #C9D9A9, #C9D9A9); 
+    color: var(--color-secondary);   
     border-radius: 10px;
+}
+.whatsapp{
+    position: relative;
+    top: -26em;
+    left: 12em;
+    color: #f2f2f2;
+    
+}
+.instagram{
+    position: relative;
+    top: -28.1em;
+    left: 17em;
+    color: #f2f2f2;
+}
+.email{
+    position: relative;
+    top: -30.3em;
+    left: 22em;
+    color: #f2f2f2;
+}
+
+.user{
+    position: relative;
+    top: -23.3em;
+    left: 3em;
+    color: #f2f2f2;
 }
 
 h1{
@@ -137,6 +164,7 @@ h2{
     color: #f2f2f2;
 }
 .imagem-perfil{
-    margin-top: -57em;
-    margin-left: 53.4em;
+    margin-top: -50em;
+    margin-left: 3.4em;
+    
 }
