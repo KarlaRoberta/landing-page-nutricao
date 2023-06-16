@@ -122,7 +122,7 @@ h2{
 }
 #sobre{
     margin-bottom: 2em;
-    margin-top: -3em;
+    margin-top: -8em;
     font-size: 35px;
     margin-left: -1.5em;
     color: #A62454;
@@ -166,5 +166,18 @@ h2{
 .imagem-perfil{
     margin-top: -50em;
     margin-left: 3.4em;
+    
+}
+
+#post-nutricao > div> h2{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 2em;
+    color: var(--color-tertiary);
+    
+    width: 100%;
+    padding-bottom: 15em;
     
 }
