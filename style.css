@@ -5,6 +5,10 @@
     box-sizing: border-box;
     
 }
+/* body { 
+    overflow-x: hidden;
+} */
+
 :root {
     --color-default: #2b180d;
     --color-primary: #A62454;
@@ -14,99 +18,148 @@
   }
 
 .logo-nutri{
-    width: 70%;
-    margin-top: -1.7em;
-    margin-left: 32em;
+    width: 30%;
+    margin-top: -3em;
+    margin-left: 17.5em;
 }
 
 header{
-     /* background: linear-gradient(#788C69, #c9d9a96a);  */
-     background: var(--color-tertiary);
-     background-repeat: no-repeat;
+
+     background: linear-gradient(to right, #788C69, #C9D9A9);
      width: 100%;
-     height: 61.5em;
-     padding: 8em;
-     margin-top: -13em;
-     /* margin-top: 5em; */
+     height: 49em;
      color: #f2f2f2;
      
 }
+.imagem-perfil{
+    width: 30%;
+    margin-top: -41.9em;
+    margin-left: 66.6em;
+    
+}
 
 .menu{
-    margin-left: 5.1em;
+    position: fixed;
+    background: #f2f2f2;
+    margin: auto;
+    width: 100%;
     
 
 }
 .menu ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    align-items: center;
+    /* list-style: none; */
+    display: flex;
+    justify-content: flex-end;
     position: relative;
-    top: 1em;
     font-size: 22px;
-    /* color: var(--color-primary); */
+  
 
 }
 
 .menu>ul>li{
-    padding: 1em;
-    display: flex;
     
+    display: flex;
+    float: left; 
+    padding: 1em;
     
 }
 
 .menu > ul>li> a{
-    display: block;
     padding: 4px;
     text-decoration: none;
-    text-align: center;
-    color: #f2f2f2;
-    
+    text-align: end;
+    color: var(--color-tertiary);
+      
 }
 
 .menu >ul>li> a:hover{
     padding: 10px;
     background-image: linear-gradient(to right, #C9D9A9, #C9D9A9); 
-    color: var(--color-secondary);   
+    color: var(--color-tertiary);   
     border-radius: 10px;
+    
+}
+.simbolos{
+    margin-left: 11.2em;
+    margin-top: 6em;
 }
 .whatsapp{
     position: relative;
-    top: -26em;
-    left: 12em;
+    top: -15.7em;
+    left: 13em;
     color: #f2f2f2;
+    
+}
+.whatsapp a{
+     color: inherit;
     
 }
 .instagram{
     position: relative;
-    top: -28.1em;
-    left: 17em;
+    top: -18.1em;
+    left: 20em;
     color: #f2f2f2;
+}
+.instagram a{
+    color: inherit;
 }
 .email{
     position: relative;
-    top: -30.3em;
-    left: 22em;
+    top: -20.3em;
+    left: 27em;
     color: #f2f2f2;
 }
 
-.user{
-    position: relative;
-    top: -23.3em;
-    left: 3em;
-    color: #f2f2f2;
+#post-nutricao > div> h2{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2em;
+    font-size: 30px;
+    margin-top: -4em;
+    color: var(--color-tertiary);
+    width: 90%;
+    
 }
 
-h1{
-    font-size: 35px;
-    width: 50%;
-    margin-top: 4em;
-    margin-left: 3em;
+.imagens-post{
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 27em;
+    width: 300px;
+   height: 200px;
+   overflow: hidden;
+    
 }
-h2{
+
+.imagens-post img{
+    width: 100%;
+    height: 100%;
+   -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+.imagens-post:hover img{
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+#mitos-verdade{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.344);
+}
+#tres-coisas{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.344);
+}
+#icafe-da-manha{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.344);
+}
+
+#sobre > h2{
     width: 50%;
-    margin-left: 5.3em;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
     font-size: 30px;
     
 }
@@ -122,9 +175,9 @@ h2{
 }
 #sobre{
     margin-bottom: 2em;
-    margin-top: -8em;
+    margin-top: -10em;
     font-size: 35px;
-    margin-left: -1.5em;
+    /* margin-left: -1.5em; */
     color: #A62454;
     position: relative;
     
@@ -136,7 +189,7 @@ h2{
   width: 15%;
   height: 2px;
   background: var(--color-tertiary);
-  left: 25px;
+  left: 10px;
   right: 0;
   bottom: 0;
   margin: auto;
@@ -154,30 +207,7 @@ h2{
     border-radius: 15px;
     margin-left: 27.5em;
     color: var(--color-primary);
-    /* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.31); */
-    /* background-color:#bf788b22; */
+    
 
 }
-.subtitulo{
-    margin-top: -2.5em;
-    font-size: 25px;
-    color: #f2f2f2;
-}
-.imagem-perfil{
-    margin-top: -50em;
-    margin-left: 3.4em;
-    
-}
 
-#post-nutricao > div> h2{
-    text-align: center;
-    justify-content: center;
-    margin: auto;
-    font-size: 30px;
-    margin-top: 2em;
-    color: var(--color-tertiary);
-    
-    width: 100%;
-    padding-bottom: 15em;
-    
-}
