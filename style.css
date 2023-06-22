@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Poppins:wght@100&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    font-family: "Monstserrat";
+    /* font-family: "Monstserrat"; */
     box-sizing: border-box;
     
 }
-/* body { 
+body { 
     overflow-x: hidden;
-} */
+} 
 
 :root {
     --color-default: #2b180d;
@@ -17,15 +20,16 @@
     --color-quaternary: #C9D9A9;
   }
 
-.logo-nutri{
-    width: 30%;
-    margin-top: -3em;
-    margin-left: 17.5em;
+.fundo-de-tela{
+    width: 50%;
+    margin-top: 10em;
+    margin-left: 8em;
+    
 }
 
 header{
 
-     background: linear-gradient(to right, #788C69, #C9D9A9);
+     /* background: linear-gradient(to right, #788C69, #C9D9A9); */
      width: 100%;
      height: 49em;
      color: #f2f2f2;
@@ -33,18 +37,17 @@ header{
 }
 .imagem-perfil{
     width: 30%;
-    margin-top: -41.9em;
-    margin-left: 66.6em;
+    margin-top: -31.9em;
+    margin-left: 67.1em;
     
 }
 
 .menu{
     position: fixed;
-    background: #f2f2f2;
+    background: linear-gradient(to right, #788C69, #C9D9A9);
     margin: auto;
     width: 100%;
     
-
 }
 .menu ul{
     /* list-style: none; */
@@ -52,7 +55,6 @@ header{
     justify-content: flex-end;
     position: relative;
     font-size: 22px;
-  
 
 }
 
@@ -68,7 +70,8 @@ header{
     padding: 4px;
     text-decoration: none;
     text-align: end;
-    color: var(--color-tertiary);
+    color: white;
+    /* color: var(--color-tertiary); */
       
 }
 
@@ -87,7 +90,7 @@ header{
     position: relative;
     top: -15.7em;
     left: 13em;
-    color: #f2f2f2;
+    color: var(--color-tertiary);
     
 }
 .whatsapp a{
@@ -98,7 +101,7 @@ header{
     position: relative;
     top: -18.1em;
     left: 20em;
-    color: #f2f2f2;
+    color: var(--color-tertiary);
 }
 .instagram a{
     color: inherit;
@@ -107,19 +110,40 @@ header{
     position: relative;
     top: -20.3em;
     left: 27em;
-    color: #f2f2f2;
+    color: var(--color-tertiary);
 }
 
 #post-nutricao > div> h2{
     text-align: center;
     justify-content: center;
     margin: auto;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     font-size: 30px;
     margin-top: -4em;
     color: var(--color-tertiary);
     width: 90%;
     
+}
+
+.descricao-do-post{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 32em; 
+    
+    
+} 
+#post-1{
+    font-weight: 200;
+}
+
+#post-2{
+    font-weight: 200;
+}
+
+#post-3{
+    font-weight: 200;
 }
 
 .mitos-verdades{
@@ -135,8 +159,8 @@ header{
 .mitos-verdades img{
     width: 100%;
     height: 100%;
-   -webkit-transition: -webkit-transform .5s ease;
-   transition: transform .5s ease;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
 }
 
 .mitos-verdades:hover img{
@@ -194,28 +218,42 @@ header{
     margin-bottom: 1em;
 }
 
-#consulta > h2{
-    width: 50%;
-    display: inline-flex;
-    text-align: center;
-    justify-content: center;
-    font-size: 30px;
-    color: var(--color-tertiary);
-    position: relative;
-    top: -6em;
- 
-}
-
 #consulta{
-    margin-bottom: 2em;
+    margin-bottom: 3em;
     font-size: 35px;
     color: #A62454;
     position: relative;
     
 }
+#consulta h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10%;
+    height: 2px;
+    background: var(--color-quaternary);
+    left: 10px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-bottom: -0.5em;
+      
+  }
+
+#consulta > h2{
+    width: 50%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    color: var(--color-tertiary);
+    position: relative;
+    top: -2em;
+ 
+}
+
 
 .consultas{
-    
     display: block;
     text-align: center;
     justify-content: center;
@@ -226,8 +264,6 @@ header{
     border-radius: 15px;
     margin-left: 27.5em;
     color: var(--color-primary);
-        
-    
 
 }
 
