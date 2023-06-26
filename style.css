@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Poppins:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Poppins:wght@100;200;300;400;500&display=swap');
 
 *{
     margin: 0;
@@ -8,9 +8,9 @@
     box-sizing: border-box;
     
 }
-body { 
+/* body { 
     overflow-x: hidden;
-} 
+}  */
 
 :root {
     --color-default: #2b180d;
@@ -132,10 +132,11 @@ header{
     position: relative;
     top: 32em; 
     
-    
+
 } 
 #post-1{
     font-weight: 200;
+   
 }
 
 #post-2{
@@ -229,7 +230,7 @@ header{
     content: "";
     position: absolute;
     display: block;
-    width: 10%;
+    width: 7%;
     height: 2px;
     background: var(--color-quaternary);
     left: 10px;
@@ -253,18 +254,141 @@ header{
 }
 
 
-.consultas{
-    display: block;
+.slider{
+    
+    /* display: block;
     text-align: center;
     justify-content: center;
-    margin-top: -8em;
     font-size: 23px;
     width: 50%;
     padding: 5em;
     border-radius: 15px;
     margin-left: 27.5em;
-    color: var(--color-primary);
+    color: var(--color-tertiary);
+    margin-top: -6em; */
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
 
+}
+
+.slides{
+    width: 600%;
+    height: 400px;
+    display: flex;
+    
+
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 22%;
+    position: relative;
+    top: 20px;
+
+}
+.slide p{
+    width: 700px;
+
+
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid var(--color-tertiary);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.manual-btn:not(:Last-child){
+    margin-right: 30px ;
+}
+
+.manual-btn:hover{
+    background-color: var(--color-quaternary);
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -55%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -95%;
+}
+
+#radio6:checked ~ .first{
+    margin-left: -115%;
+}
+
+
+
+.primeira-pag-slide{
+    position: relative;
+    top: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    /* text-align: start;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    font-weight: 300;
+    font-size: 20px;
+    position: relative;
+    top: 1em; */
+   
+}
+.primeira-pag-slide{
+    color: var(--color-tertiary);
+}
+.primeira-consulta{
+    position: relative;
+    top: 1em;
+    left: 9em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: var(--color-tertiary);
+}
+
+
+#duracao-consulta{
+    position: relative;
+    left: 8em;
+    color: var(--color-tertiary);
+    margin-top: 3em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.slide{
+    position: relative;
+    top: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-left: 100px;
 }
 
 #sobre > h2{
@@ -278,11 +402,10 @@ header{
 
 .segunda-img{
     margin-left: 7em;
-    margin-top: -33em;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.31);
+    margin-top: -40em;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.177);
     padding: 0px -45px 0px;
     width: 90%;
-    background-color:#bf788b22;
     
 }
 #sobre{
