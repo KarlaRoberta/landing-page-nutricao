@@ -302,7 +302,7 @@ header{
     width: 800px;
     margin-top: -40px;
     display: flex;
-    justify-content: center;
+    margin-left: 16em;
 }
 
 .manual-btn{
@@ -315,7 +315,7 @@ header{
 }
 
 .manual-btn:not(:Last-child){
-    margin-right: 30px ;
+    margin-right: 20px ;
 }
 
 .manual-btn:hover{
@@ -331,19 +331,19 @@ header{
 }
 
 #radio3:checked ~ .first{
-    margin-left: -55%;
+    margin-left: -42%;
 }
 
 #radio4:checked ~ .first{
-    margin-left: -75%;
+    margin-left: -64%;
 }
 
 #radio5:checked ~ .first{
-    margin-left: -95%;
+    margin-left: -86%;
 }
 
 #radio6:checked ~ .first{
-    margin-left: -115%;
+    margin-left: -108%;
 }
 
 
@@ -365,7 +365,8 @@ header{
 .primeira-pag-slide{
     color: var(--color-tertiary);
 }
-.primeira-consulta{
+
+.segundo-titulo-slide{
     position: relative;
     top: 1em;
     left: 9em;
@@ -373,8 +374,6 @@ header{
     font-weight: 500;
     color: var(--color-tertiary);
 }
-
-
 #duracao-consulta{
     position: relative;
     left: 8em;
@@ -383,6 +382,31 @@ header{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
+
+.segunda-pag-slide1{
+    color: var(--color-tertiary);
+    position: relative;
+    top: 1em;
+    right: 1.5em;
+    font-size: 25px;
+}
+
+.segundo-titulo-slide1{
+    position: relative;
+    top: 1.2em;
+    left: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: var(--color-tertiary);
+}
+.segunda-pag-slide{
+    color: var(--color-tertiary);
+    position: relative;
+    top: 1em;
+    right: 1.8em;
+    font-size: 18px;
+}
+
 .slide{
     position: relative;
     top: 1em;
