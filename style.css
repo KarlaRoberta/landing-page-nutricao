@@ -4,13 +4,14 @@
 *{
     margin: 0;
     padding: 0;
-    /* font-family: "Monstserrat"; */
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     
 }
-/* body { 
+
+body { 
     overflow-x: hidden;
-}  */
+} 
 
 :root {
     --color-default: #2b180d;
@@ -22,8 +23,8 @@
 
 .fundo-de-tela{
     width: 50%;
-    margin-top: 10em;
-    margin-left: 8em;
+    margin-top: 13em;
+    margin-left: -4em;
     
 }
 
@@ -38,15 +39,26 @@ header{
 .imagem-perfil{
     width: 30%;
     margin-top: -31.9em;
-    margin-left: 67.1em;
+    margin-left: 67.5em;
+    
+}
+
+h2{
+    color: #f2f2f2;
+    position: absolute;
+    top: 1em;
+    padding-left: 10px;
+    font-weight: 400;
     
 }
 
 .menu{
     position: fixed;
-    background: linear-gradient(to right, #788C69, #C9D9A9);
+    background-color: var(--color-secondary);
+    /* background: linear-gradient(to right, #788C69, #C9D9A9); */
     margin: auto;
     width: 100%;
+    font-weight: 400;
     
 }
 .menu ul{
@@ -55,6 +67,7 @@ header{
     justify-content: flex-end;
     position: relative;
     font-size: 22px;
+    
 
 }
 
@@ -82,15 +95,23 @@ header{
     border-radius: 10px;
     
 }
+h3{
+    position: relative;
+    top: -19.7em;
+    left: 14rem;
+    color: var(--color-tertiary);
+    font-weight: 400;
+    font-size: 22px;
+}
 .simbolos{
-    margin-left: 11.2em;
-    margin-top: 6em;
+    margin-left: 32.2em;
+    margin-top: 6.5em;
 }
 .whatsapp{
     position: relative;
     top: -15.7em;
     left: 13em;
-    color: var(--color-tertiary);
+    color: var(--color-secondary);
     
 }
 .whatsapp a{
@@ -101,7 +122,7 @@ header{
     position: relative;
     top: -18.1em;
     left: 20em;
-    color: var(--color-tertiary);
+    color: var(--color-secondary);
 }
 .instagram a{
     color: inherit;
@@ -110,8 +131,169 @@ header{
     position: relative;
     top: -20.3em;
     left: 27em;
+    color: var(--color-secondary);
+}
+
+.sobre-mim h2{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 53rem;
+    font-size: 30px;
+    width: 50%;
+    border-radius: 15px;
+    margin-left: -5em;
+    color: var(--color-tertiary);
+    
+}
+
+#sobre-mim-id h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 13%;
+    height: 2px;
+    background: var(--color-secondary);
+    left: 10px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-bottom: -0.5em;
+      
+  }
+
+.sobre-mim{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-top: -25rem;
+    margin-bottom: 22em;
+    line-height: 27px;
+    width: 50rem;
+    margin-left: 36rem;
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--color-tertiary);
+   
+}
+
+.formacao{
+    position: relative;
+    top: 7rem;
+    line-height: 35px;
+}
+
+
+.imagem-sobre-mim{
+    margin-left: 6rem;
+    margin-top: -5em;
+    width: 23%;
+}
+
+#area-de-atuacao h2{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100rem;
+    font-size: 30px;
+    width: 50%;
+    border-radius: 15px;
+    margin-left: 13em;
     color: var(--color-tertiary);
 }
+
+#area-de-atuacao h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 13%;
+    height: 2px;
+    background: var(--color-secondary);
+    left: 10px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-bottom: -0.5em;
+      
+}
+
+#area-de-atuacao h3{
+    position: relative;
+    top: -1em;
+    
+}
+
+.imagem-nutricao-esportiva{
+    margin-left: 10rem;
+    margin-top: 2em;
+}
+
+.imagem-nutricao-esportiva img{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.344);
+}
+
+.nutricao-esportiva h2{
+    text-align: start;
+    margin-top: 61em;
+    margin-left: -0.5em;
+    color: var(--color-tertiary);
+    
+}
+
+.nutricao-esportiva{
+    width: 50%;
+    text-align: start;
+    justify-content: center;
+    color: var(--color-tertiary);
+    margin-top: -11em;
+    margin-left: 25em;
+    margin-bottom: 15em;
+    font-size: 20px;
+
+}
+
+.imagem-nutricao-clinica{
+    margin-left: 62em;
+    margin-top: -6em;
+   
+}
+
+.imagem-nutricao-clinica img{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.344);
+}
+
+.nutricao-clinica{
+    width: 50%;
+    text-align: start;
+    justify-content: center;
+    color: var(--color-tertiary);
+    margin-top: -10em;
+    margin-left: 12em;
+    margin-bottom: 15em;
+    font-size: 20px;
+}
+.nutricao-clinica h2{
+    text-align: start;
+    margin-top: 75em;
+    margin-left: -0.4em;
+    color: var(--color-tertiary);
+}
+
+
+.consulta{
+    font-size: 30px;
+    text-align: center;
+    
+}
+.consulta h2{
+    background-color: var(--color-secondary);
+    margin-top: 60em;
+    width: 100%;
+    padding: 4em;
+    font-weight: 500;
+
+}
+
 
 #post-nutricao > div> h2{
     text-align: center;
@@ -148,7 +330,6 @@ header{
 }
 
 .mitos-verdades{
-    
     margin-bottom: 27em;
     width: 400px;
     height: 310px;
@@ -220,7 +401,7 @@ header{
 }
 
 #consulta{
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     font-size: 35px;
     color: #A62454;
     position: relative;
@@ -249,7 +430,8 @@ header{
     font-size: 30px;
     color: var(--color-tertiary);
     position: relative;
-    top: -2em;
+    top: -1em;
+    left: 6em;
  
 }
 
@@ -267,15 +449,18 @@ header{
     color: var(--color-tertiary);
     margin-top: -6em; */
     margin: 0 auto;
-    width: 600px;
+    width: 850px;
     height: 400px;
     overflow: hidden;
+    margin-top: -3em;
+    margin-left: 26em;
+    padding: 0 auto;
 
 }
 
 .slides{
-    width: 600%;
-    height: 400px;
+    width: 900%;
+    height: 500px;
     display: flex;
     
 
@@ -294,15 +479,14 @@ header{
 .slide p{
     width: 700px;
 
-
 }
 
 .manual-navigation{
     position: absolute;
     width: 800px;
-    margin-top: -40px;
+    margin-top: -110px;
     display: flex;
-    margin-left: 16em;
+    margin-left: 29em;
 }
 
 .manual-btn{
@@ -323,7 +507,7 @@ header{
 }
 
 #radio1:checked ~ .first{
-    margin-left: 0;
+    margin-left: 0%;
 }
 
 #radio2:checked ~ .first{
@@ -331,28 +515,37 @@ header{
 }
 
 #radio3:checked ~ .first{
-    margin-left: -42%;
+    margin-left: -44%;
 }
 
 #radio4:checked ~ .first{
-    margin-left: -64%;
+    margin-left: -66%;
 }
 
 #radio5:checked ~ .first{
-    margin-left: -86%;
+    margin-left: -88%;
 }
 
 #radio6:checked ~ .first{
-    margin-left: -108%;
+    margin-left: -110%;
 }
 
 
 
 .primeira-pag-slide{
+    
     position: relative;
-    top: 1em;
+    top: 2em;
+    left: 10em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    margin-top: -2em;
+    padding: 10px;
+    font-size: 18px;
+    padding-bottom: 2em;
+    
+   
+    
     /* text-align: start;
     font-family: 'Montserrat', sans-serif;
     font-size: small;
@@ -369,14 +562,16 @@ header{
 .segundo-titulo-slide{
     position: relative;
     top: 1em;
-    left: 9em;
+    left: 16em;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: var(--color-tertiary);
+    font-size: 20px;
+    padding-bottom: 2em;
 }
 #duracao-consulta{
     position: relative;
-    left: 8em;
+    left: 19em;
     color: var(--color-tertiary);
     margin-top: 3em;
     font-family: 'Poppins', sans-serif;
@@ -387,23 +582,25 @@ header{
     color: var(--color-tertiary);
     position: relative;
     top: 1em;
-    right: 1.5em;
-    font-size: 25px;
+    left: 11em;
+    font-size: 27px;
+    padding-bottom: 1em;
 }
 
 .segundo-titulo-slide1{
     position: relative;
     top: 1.2em;
-    left: 1em;
+    left: 14em;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: var(--color-tertiary);
+    font-size: 18px;
 }
 .segunda-pag-slide{
     color: var(--color-tertiary);
     position: relative;
     top: 1em;
-    right: 1.8em;
+    left: 12em;
     font-size: 18px;
 }
 
@@ -425,8 +622,8 @@ header{
 }
 
 .segunda-img{
-    margin-left: 7em;
-    margin-top: -40em;
+    margin-left: 4.5em;
+    margin-top: -35em;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.177);
     padding: 0px -45px 0px;
     width: 90%;
@@ -454,18 +651,27 @@ header{
   margin-bottom: -0.5em;
     
 }
-.sobre-mim {
-    display: block;
-    text-align: center;
-    justify-content: center;
-    margin-top: 8em;
-    font-size: 23px;
-    width: 50%;
-    padding: 5em;
-    border-radius: 15px;
-    margin-left: 27.5em;
-    color: var(--color-primary);
-    
 
+
+#seta-esquerda h2{
+    position: absolute;
+    padding: 15px;
+    box-shadow: 2px -2px 0 1px #000 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(45deg);
+    margin-left: 38em;
+    margin-top: -16em;
+    }
+
+#seta-direita{
+    position: absolute;
+    padding: 15px;
+    box-shadow: 2px -2px 0 1px #000 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(225deg);
+    margin-left: 80em;
+    margin-top: -16em;
 }
 
