@@ -1,5 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,500;1,900&family=Poppins:wght@100;200;300;400;500&display=swap');
 
 *{
     margin: 0;
@@ -30,7 +30,6 @@ body {
 
 header{
 
-     /* background: linear-gradient(to right, #788C69, #C9D9A9); */
      width: 100%;
      height: 49em;
      color: #f2f2f2;
@@ -138,6 +137,7 @@ h3{
     display: block;
     text-align: center;
     justify-content: center;
+    font-weight: 500;
     margin-top: 53rem;
     font-size: 30px;
     width: 50%;
@@ -196,6 +196,7 @@ h3{
     justify-content: center;
     margin-top: 100rem;
     font-size: 30px;
+    font-weight: 500;
     width: 50%;
     border-radius: 15px;
     margin-left: 13em;
@@ -237,6 +238,7 @@ h3{
     margin-top: 61em;
     margin-left: -0.5em;
     color: var(--color-tertiary);
+    font-weight: 500;
     
 }
 
@@ -276,23 +278,26 @@ h3{
     text-align: start;
     margin-top: 75em;
     margin-left: -0.4em;
+    font-weight: 500;
     color: var(--color-tertiary);
 }
 
 
-.consulta{
-    font-size: 30px;
-    text-align: center;
-    
-}
-.consulta h2{
+
+/* .consulta h2{
     background-color: var(--color-secondary);
     margin-top: 60em;
     width: 100%;
     padding: 4em;
-    font-weight: 500;
+    font-weight: 600;
+    text-align: right;
+    background-image: url(img/sobre-mim\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: 8%;
+    
+} */
 
-}
+
 
 
 #post-nutricao > div> h2{
@@ -400,7 +405,7 @@ h3{
     margin-bottom: 1em;
 }
 
-#consulta{
+/* #consulta{
     margin-bottom: 2em;
     font-size: 35px;
     color: #A62454;
@@ -420,9 +425,9 @@ h3{
     margin: auto;
     margin-bottom: -0.5em;
       
-  }
+  } */
 
-#consulta > h2{
+/* #consulta > h2{
     width: 50%;
     display: block;
     text-align: center;
@@ -433,49 +438,47 @@ h3{
     top: -1em;
     left: 6em;
  
-}
+} */
 
 
 .slider{
     
-    /* display: block;
-    text-align: center;
-    justify-content: center;
-    font-size: 23px;
-    width: 50%;
-    padding: 5em;
-    border-radius: 15px;
-    margin-left: 27.5em;
-    color: var(--color-tertiary);
-    margin-top: -6em; */
-    margin: 0 auto;
+    background-color: var(--color-secondary);
+    width: 100%;
+    padding: 1em;
+    
+    
+    /* font-weight: 600; */
+    /* text-align: right; */
+    /* background-image: url(img/sobre-mim\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: 8%; */
+    /* margin: 0 auto;
     width: 850px;
     height: 400px;
     overflow: hidden;
     margin-top: -3em;
     margin-left: 26em;
-    padding: 0 auto;
+    padding: 0 auto; */
 
 }
+
+.slide-first{
+    color: #f2f2f2;
+}
+
 
 .slides{
     width: 900%;
     height: 500px;
     display: flex;
     
-
 }
 
 .slides input{
     display: none;
 }
 
-.slide{
-    width: 22%;
-    position: relative;
-    top: 20px;
-
-}
 .slide p{
     width: 700px;
 
@@ -486,11 +489,11 @@ h3{
     width: 800px;
     margin-top: -110px;
     display: flex;
-    margin-left: 29em;
+    margin-left: 50em;
 }
 
 .manual-btn{
-    border: 2px solid var(--color-tertiary);
+    border: 2px solid #f2f2f2f2;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -503,43 +506,69 @@ h3{
 }
 
 .manual-btn:hover{
-    background-color: var(--color-quaternary);
+    background-color: #f2f2f2;
 }
 
-#radio1:checked ~ .first{
-    margin-left: 0%;
+#radio1:checked ~ .slide-first{
+    margin-left: 0;
 }
 
-#radio2:checked ~ .first{
-    margin-left: -20%;
+#radio2:checked ~ .slide-first{
+    margin-left: -12%;
 }
 
-#radio3:checked ~ .first{
+#radio3:checked ~ .slide-first{
     margin-left: -44%;
 }
 
-#radio4:checked ~ .first{
+#radio4:checked ~ .slide-first{
     margin-left: -66%;
 }
 
-#radio5:checked ~ .first{
+#radio5:checked ~ .slide-first{
     margin-left: -88%;
 }
 
-#radio6:checked ~ .first{
+#radio6:checked ~ .slide-first{
     margin-left: -110%;
 }
 
+.imagem-de-consulta{
+    position: relative;
+    left: 2em;
+    
+}
 
+.consulta{
+    font-size: 60px;
+    color: #f2f2f2;
+    margin-left: 7em;
+    width: 100%;
+    margin-top: -6em;
+    
+}
+
+/* .consulta h2{
+    background-color: var(--color-secondary);
+    margin-top: 60em;
+    width: 100%;
+    padding: 4em;
+    font-weight: 600;
+    text-align: right;
+    background-image: url(img/sobre-mim\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: 8%;
+    
+} */
 
 .primeira-pag-slide{
     
     position: relative;
     top: 2em;
-    left: 10em;
+    left: 85em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    margin-top: -2em;
+    margin-top: -10.5em;
     padding: 10px;
     font-size: 18px;
     padding-bottom: 2em;
@@ -556,33 +585,41 @@ h3{
    
 }
 .primeira-pag-slide{
-    color: var(--color-tertiary);
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+    color: #f2f2f2;
+    margin-left: 11em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: -12em;
 }
 
 .segundo-titulo-slide{
     position: relative;
-    top: 1em;
-    left: 16em;
+    top: -7em;
+    left: 82em;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    color: var(--color-tertiary);
-    font-size: 20px;
+    color: #f2f2f2;
+    font-size: 27px;
     padding-bottom: 2em;
 }
 #duracao-consulta{
     position: relative;
-    left: 19em;
-    color: var(--color-tertiary);
+    left: 138.7em;
+    color: #f2f2f2;
     margin-top: 3em;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 
 .segunda-pag-slide1{
-    color: var(--color-tertiary);
+    color: #f2f2f2;
     position: relative;
     top: 1em;
-    left: 11em;
+    left: 23em;
     font-size: 27px;
     padding-bottom: 1em;
 }
@@ -590,26 +627,27 @@ h3{
 .segundo-titulo-slide1{
     position: relative;
     top: 1.2em;
-    left: 14em;
+    left: 35em;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    color: var(--color-tertiary);
+    color: #f2f2f2;
     font-size: 18px;
 }
 .segunda-pag-slide{
-    color: var(--color-tertiary);
+    color: #f2f2f2;
     position: relative;
     top: 1em;
-    left: 12em;
+    left: 31em;
     font-size: 18px;
 }
 
 .slide{
     position: relative;
-    top: 1em;
+    top: 3em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     padding-left: 100px;
+    width: 22%;
 }
 
 #sobre > h2{
