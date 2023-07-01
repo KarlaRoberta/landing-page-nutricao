@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,500;1,900&family=Poppins:wght@100;200;300;400;500&display=swap');
 
 *{
@@ -282,24 +281,6 @@ h3{
     color: var(--color-tertiary);
 }
 
-
-
-/* .consulta h2{
-    background-color: var(--color-secondary);
-    margin-top: 60em;
-    width: 100%;
-    padding: 4em;
-    font-weight: 600;
-    text-align: right;
-    background-image: url(img/sobre-mim\ \(2\).png);
-    background-repeat: no-repeat;
-    background-position: 8%;
-    
-} */
-
-
-
-
 #post-nutricao > div> h2{
     text-align: center;
     justify-content: center;
@@ -311,135 +292,6 @@ h3{
     width: 90%;
     
 }
-
-.descricao-do-post{
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    top: 32em; 
-    
-
-} 
-#post-1{
-    font-weight: 200;
-   
-}
-
-#post-2{
-    font-weight: 200;
-}
-
-#post-3{
-    font-weight: 200;
-}
-
-.mitos-verdades{
-    margin-bottom: 27em;
-    width: 400px;
-    height: 310px;
-    overflow: hidden;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.344);
-    
-}
-
-.mitos-verdades img{
-    width: 100%;
-    height: 100%;
-    -webkit-transition: -webkit-transform .5s ease;
-    transition: transform .5s ease;
-}
-
-.mitos-verdades:hover img{
-   -webkit-transform: scale(1.1);
-   transform: scale(1.1);
-}
-
-.tres-coisas{
-    
-    margin-bottom: 27em;
-    width: 400px;
-    height: 310px;
-    overflow: hidden;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.344);
-    
-}
-
-.tres-coisas img{
-    width: 100%;
-    height: 100%;
-   -webkit-transition: -webkit-transform .5s ease;
-   transition: transform .5s ease;
-}
-
-.tres-coisas:hover img{
-   -webkit-transform: scale(1.1);
-   transform: scale(1.1);
-}
-
-.icafe-da-manha{
-    
-    margin-bottom: 27em;
-    width: 400px;
-    height: 310px;
-    overflow: hidden;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.344);
-    
-}
-
-.icafe-da-manha img{
-    width: 100%;
-    height: 100%;
-   -webkit-transition: -webkit-transform .5s ease;
-   transition: transform .5s ease;
-}
-
-.icafe-da-manha:hover img{
-   -webkit-transform: scale(1.1);
-   transform: scale(1.1);
-}
-
-.fotos-do-post{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 1em;
-}
-
-/* #consulta{
-    margin-bottom: 2em;
-    font-size: 35px;
-    color: #A62454;
-    position: relative;
-    
-}
-#consulta h2::after{
-    content: "";
-    position: absolute;
-    display: block;
-    width: 7%;
-    height: 2px;
-    background: var(--color-quaternary);
-    left: 10px;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    margin-bottom: -0.5em;
-      
-  } */
-
-/* #consulta > h2{
-    width: 50%;
-    display: block;
-    text-align: center;
-    justify-content: center;
-    font-size: 30px;
-    color: var(--color-tertiary);
-    position: relative;
-    top: -1em;
-    left: 6em;
- 
-} */
-
 
 .slider{
     
@@ -500,7 +352,7 @@ h3{
 }
 
 #radio2:checked ~ .slide-first{
-    margin-left: -13%;
+    margin-left: -14%;
 }
 
 #radio3:checked ~ .slide-first{
@@ -508,7 +360,7 @@ h3{
 }
 
 #radio4:checked ~ .slide-first{
-    margin-left: -55.5%;
+    margin-left: -55%;
 }
 
 #radio5:checked ~ .slide-first{
@@ -526,36 +378,25 @@ h3{
 .imagem-de-consulta{
     position: relative;
     left: 2em;
+    top: 0.1em;
     
 }
 
-.consulta{
+#consulta{
+    text-align: right;
     font-size: 60px;
     color: #f2f2f2;
-    margin-left: 7em;
-    width: 100%;
+    margin-left: 5.4em;
+    width: 120%;
     margin-top: -6em;
     
 }
-
-/* .consulta h2{
-    background-color: var(--color-secondary);
-    margin-top: 60em;
-    width: 100%;
-    padding: 4em;
-    font-weight: 600;
-    text-align: right;
-    background-image: url(img/sobre-mim\ \(2\).png);
-    background-repeat: no-repeat;
-    background-position: 8%;
-    
-} */
 
 .primeira-pag-slide{
     
     position: relative;
     top: 2em;
-    left: 85em;
+    left: 86em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     margin-top: -10.5em;
@@ -563,23 +404,13 @@ h3{
     font-size: 18px;
     padding-bottom: 2em;
     
-   
-    
-    /* text-align: start;
-    font-family: 'Montserrat', sans-serif;
-    font-size: small;
-    font-weight: 300;
-    font-size: 20px;
-    position: relative;
-    top: 1em; */
-   
 }
 .primeira-pag-slide{
     text-align: start;
     justify-content: center;
     width: 30%;
     color: #f2f2f2;
-    margin-left: -45em;
+    margin-left: -41em;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -588,7 +419,7 @@ h3{
 
 .segundo-titulo-slide{
     position: relative;
-    left: 30em;
+    left: 34em;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: #f2f2f2;
@@ -597,7 +428,7 @@ h3{
 }
 #duracao-consulta{
     position: relative;
-    left: 64em;
+    left: 70em;
     color: #f2f2f2;
     margin-top: 3em;
     font-family: 'Poppins', sans-serif;
@@ -608,7 +439,7 @@ h3{
     color: #f2f2f2;
     position: relative;
     top: -0.2em;
-    left: 10em;
+    left: 9.5em;
     font-size: 32px;
     padding-bottom: 1em;
 }
@@ -616,7 +447,7 @@ h3{
 .segundo-titulo-slide1{
     position: relative;
     top: 1em;
-    left: 10em;
+    left: 10.5em;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: #f2f2f2;
@@ -640,48 +471,7 @@ h3{
     width: 22%;
 }
 
-#sobre > h2{
-    width: 50%;
-    display: inline-flex;
-    text-align: center;
-    justify-content: center;
-    font-size: 30px;
-    
-}
-
-.segunda-img{
-    margin-left: 4.5em;
-    margin-top: -35em;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.177);
-    padding: 0px -45px 0px;
-    width: 90%;
-    
-}
-#sobre{
-    margin-bottom: 2em;
-    margin-top: -10em;
-    font-size: 35px;
-    color: #A62454;
-    position: relative;
-    
-}
-#sobre h2::after{
-  content: "";
-  position: absolute;
-  display: block;
-  width: 15%;
-  height: 2px;
-  background: var(--color-tertiary);
-  left: 10px;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  margin-bottom: -0.5em;
-    
-}
-
-
-#seta-esquerda h2{
+/* #seta-esquerda h2{
     position: absolute;
     padding: 15px;
     box-shadow: 2px -2px 0 1px #000 inset;
@@ -701,5 +491,187 @@ h3{
     transform: rotate(225deg);
     margin-left: 80em;
     margin-top: -16em;
+} */
+
+#post-insta h2{
+    text-align: center;
+    position: relative;
+    width: 100rem;
+    font-size: 25px;
+    font-weight: 600;
+    top: 4em;
+    color: #788C69;
+
+}
+#post-insta h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 13%;
+    height: 2px;
+    background: var(--color-secondary);
+    left: 10px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-bottom: -0.5em;
+      
 }
 
+.post--insta h3{
+    position: relative;
+    top: 10em;
+}
+
+.fotos-do-post{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8em;
+    margin-bottom: 1em;
+}
+
+
+.descricao-do-post{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    position: relative;
+    top: 38em; 
+    
+} 
+#post-1{
+    font-weight: 200;
+    color: var(--color-tertiary);
+    position: relative;
+    left: 3em;
+    width: 20%;
+    
+}
+
+#post-2{
+    font-weight: 200;
+    color: var(--color-tertiary);
+    position: relative;
+    left: 12em;
+    width: 20%;
+}
+
+#post-3{
+    font-weight: 200;
+    color: var(--color-tertiary);
+    position: relative;
+    left: 20em;
+    width: 20%;
+}
+
+.mitos-verdades{
+    margin-bottom: 27em;
+    width: 400px;
+    height: 310px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.344);
+    
+}
+
+.mitos-verdades img{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.mitos-verdades:hover img{
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.tres-coisas{
+    margin-bottom: 27em;
+    width: 400px;
+    height: 310px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.344);
+    
+}
+
+.tres-coisas img{
+    width: 100%;
+    height: 100%;
+   -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+.tres-coisas:hover img{
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.icafe-da-manha{
+    margin-bottom: 27em;
+    width: 400px;
+    height: 310px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.344);
+    
+}
+
+.icafe-da-manha img{
+    width: 100%;
+    height: 100%;
+   -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+.icafe-da-manha:hover img{
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+#localizacao h2{
+    color: var(--color-tertiary);
+    margin-top: 153em;
+    text-align: center;
+    justify-content: center;
+    font-size: 27px;
+    font-weight: 500;
+    width: 100%;
+}
+
+#localizacao h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 13%;
+    height: 2px;
+    background: var(--color-secondary);
+    left: 10px;
+    right: 0;
+    bottom: -1em;
+    margin: auto;
+    margin-bottom: 0.5em;
+}
+
+.endereco{
+    font-size: 20px;
+    color: var(--color-tertiary);
+    margin-left: 7em;
+    margin-top: 8em;
+    margin-bottom: 1em;
+}
+
+.sala{
+    font-size: 20px;
+    color: var(--color-tertiary);
+    margin-left: 15em;
+}
+
+iframe{
+    margin-left: 49em;
+    margin-top: -8em;
+}
+
+.simbolo-localizacao{
+    margin-top: -3em;
+    margin-left: 6.5em;
+    font-size: 4em;
+    color: var(--color-secondary);
+}
