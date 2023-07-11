@@ -25,6 +25,7 @@ body {
     margin-top: 13em;
     margin-left: -4em;
     
+    
 }
 
 header{
@@ -53,7 +54,6 @@ h2{
 .menu{
     position: fixed;
     background-color: var(--color-secondary);
-    /* background: linear-gradient(to right, #788C69, #C9D9A9); */
     margin: auto;
     width: 100%;
     font-weight: 400;
@@ -87,10 +87,7 @@ h2{
 }
 
 .menu >ul>li> a:hover{
-    padding: 10px;
-    background-image: linear-gradient(to right, #C9D9A9, #C9D9A9); 
-    color: var(--color-tertiary);   
-    border-radius: 10px;
+    border-bottom: 2px solid var(--color-tertiary);
     
 }
 h3{
@@ -226,6 +223,7 @@ h3{
 .imagem-nutricao-esportiva{
     margin-left: 10rem;
     margin-top: 2em;
+    
 }
 
 .imagem-nutricao-esportiva img{
@@ -250,6 +248,7 @@ h3{
     margin-left: 25em;
     margin-bottom: 15em;
     font-size: 20px;
+    
 
 }
 
@@ -674,4 +673,29 @@ iframe{
     margin-left: 6.5em;
     font-size: 4em;
     color: var(--color-secondary);
+}
+
+.footer img{
+    margin-top: 3em;
+    margin-left: 10em;
+    border-radius: 10px;
+    
+    
+}
+.footer>p{
+    text-align: center;
+    justify-content: flex-end;
+    position: relative;
+    left: 15em;
+    margin-top: -10em;
+    font-size: 16px;
+    color: var(--color-tertiary);
+
+}
+.desenvolvedor{
+    text-align: center;
+    justify-content: center;
+    margin-top: 9em;
+    margin-bottom: 2em;
+    color: var(--color-primary);
 }
