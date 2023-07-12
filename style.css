@@ -44,7 +44,7 @@ header{
 
 h2{
     color: #f2f2f2;
-    position: absolute;
+    position: fixed;
     top: 1em;
     padding-left: 10px;
     font-weight: 400;
@@ -70,7 +70,6 @@ h2{
 }
 
 .menu>ul>li{
-    
     display: flex;
     float: left; 
     padding: 1em;
@@ -82,8 +81,6 @@ h2{
     text-decoration: none;
     text-align: end;
     color: white;
-    /* color: var(--color-tertiary); */
-      
 }
 
 .menu >ul>li> a:hover{
@@ -324,9 +321,9 @@ h3{
 .manual-navigation{
     position: absolute;
     width: 800px;
-    margin-top: -110px;
+    margin-top: -50px;
     display: flex;
-    margin-left: 50em;
+    margin-left: 40em;
 }
 
 .manual-btn{
@@ -345,6 +342,7 @@ h3{
 .manual-btn:hover{
     background-color: #f2f2f2;
 }
+
 
 #radio1:checked ~ .slide-first{
     margin-left: 0;
@@ -372,6 +370,49 @@ h3{
 
 #radio7:checked ~ .slide-first{
     margin-left: -121%;
+}
+
+.navigation-auto div{
+    border: 2px solid #f2f2f2;
+    padding: 5px;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 1s;
+    
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 450px;
+    display: flex;
+    justify-content: center;
+    margin-left: 21.6em;
+    
+}
+.navigation-auto div:not(:Last-child){
+    margin-right: 20px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #f2f2f2;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #f2f2f2;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #f2f2f2;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #f2f2f2;
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: #f2f2f2;
+}
+#radio6:checked ~ .navigation-auto .auto-btn6{
+    background-color: #f2f2f2;
+}
+#radio7:checked ~ .navigation-auto .auto-btn7{
+    background-color: #f2f2f2;
 }
 
 .imagem-de-consulta{
