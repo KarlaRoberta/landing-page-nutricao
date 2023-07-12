@@ -1,15 +1,19 @@
- let count = 1
- document.getElementById('radio1').checked = true
+//  let count = 1
+//  document.getElementById('radio1').checked = true
 
- setInterval(function(){
-     nextImage()
- }, 9000)
+//  setInterval(function(){
+//      nextImage()
+//  }, 9000)
 
-  function nextImage(){
-      count++
-      if (count > 6){
-         count = 1
-     }
+//   function nextImage(){
+//       count++
+//       if (count > 6){
+//          count = 1
+//      }
 
-     document.getElementById('radio'+count).checked = true
-     }
+//      document.getElementById('radio'+count).checked = true
+//      }
+
+//      $(function(){
+//         $(".button-collapse")
+//      })

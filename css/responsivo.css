@@ -1,0 +1,170 @@
+@media (max-width: 460px){
+    .logo {
+        display: flex;
+        position: fixed;
+        left: 100px;
+        top: 20px;
+        text-decoration: none;
+        color: #f2f2f2;
+        font-size: 20px;
+        
+    }
+    
+    .fundo-de-tela{
+        width: 65%;
+        position: relative;
+        left: 80px;
+        top: -80px;
+        
+    }
+    .imagem-perfil{
+        position: relative;
+        right: 810px;
+        top: -60px;
+    }
+    .simbolos{
+        position: relative;
+        right: 41em;
+        top: -15em;
+        width: 40%;
+        margin-right: 10em;
+        
+    }
+    #contato > h3{
+        text-align: start;
+        justify-content: start;
+        width: 150%;
+        position: relative;
+        right: 50px;
+        top: -410px;
+        
+    }
+
+    #sobre-mim-id > h2{
+        text-align: start;
+        justify-content: start;
+        width: 200%;
+        font-size: 25px;
+        position: relative;
+        top: -90px;
+        right: -4em;
+    }
+    #sobre-mim-id h2::after{
+        margin-left: 125px;
+    }
+    .sobre-mim{
+        position: relative;
+        top: -1390px;
+        right: 24.5em;
+        width: 82%;
+    
+    }
+    .formacao{
+        top: 0.8px;
+    }
+    .imagem-sobre-mim{
+        width: 100%;
+        margin-left: 0.5px;
+        position: relative;
+        top: 50px;
+        
+    }
+
+    #area-de-atuacao > h2{
+        text-align: start;
+        justify-content: start;
+        width: 200%;
+        font-size: 25px;
+        position: relative;
+        top: -95em;
+        right: 9.5em;
+        
+    }
+    #area-de-atuacao h2::after{
+        margin-left: 45px;
+    }
+    #areaa-de-atuacao > h3{
+        text-align: center;
+        top: -105em;
+        left: 50.5px;
+        width: 80%;
+    }
+    .nutricao-esportiva h2{
+        position: relative;
+        left: -430px;
+        top: -140em;
+        width: 150%;
+        border-bottom: 2px solid #BF788B;
+
+    }
+    .imagem-nutricao-esportiva{
+        position: relative;
+        top: -135em;
+        left: -110px;
+    }
+    .nutricao-esportiva p{
+        width: 155%;
+        text-align: center;
+        position: relative;
+        top: -189em;
+        left: -450px;
+       
+
+    }
+    .nutricao-clinica h2{
+        border-bottom: 2px solid #BF788B;
+        position: relative;
+        left: -155px;
+        top: -210em;
+        width: 135%;
+    }
+
+    .imagem-nutricao-clinica{
+        position: relative;
+        top: -239em;
+        left: -940px;
+    }
+    .nutricao-clinica p{
+        width: 155%;
+        text-align: center;
+        position: relative;
+        top: -294em;
+        left: -200px;
+       
+
+    }
+    
+    .slider{
+        background-color: #BF788B;
+        width: 100%;
+        padding: 1em;
+        position: relative;
+        top: -380em;        
+    }
+
+    .imagem-de-consulta{
+       background-image: none;
+    }
+
+    #consulta{
+        text-align: center;
+        position: relative;
+        left: -320px;
+        width: 60%;
+        top: -80px;
+    }
+    .manual-navigation{
+        margin-left: 5em;
+    }
+    #radio2:checked ~ .slide-first{
+        margin-left: -60%;
+    }
+    #radio3:checked ~ .slide-first{
+        margin-left: -100.5%;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 400px){
+    /* maior que 200px */
+    
+}
